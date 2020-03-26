@@ -3,17 +3,41 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		5E3DAC44242A82BC00583CDB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3DAC43242A82BC00583CDB /* AppDelegate.swift */; };
 		5E3DAC46242A82BC00583CDB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3DAC45242A82BC00583CDB /* SceneDelegate.swift */; };
-		5E3DAC48242A82BC00583CDB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3DAC47242A82BC00583CDB /* ViewController.swift */; };
-		5E3DAC4B242A82BC00583CDB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E3DAC49242A82BC00583CDB /* Main.storyboard */; };
 		5E3DAC4D242A82BE00583CDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E3DAC4C242A82BE00583CDB /* Assets.xcassets */; };
 		5E3DAC50242A82BE00583CDB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E3DAC4E242A82BE00583CDB /* LaunchScreen.storyboard */; };
-		5E3DAC5B242A82BE00583CDB /* StorytelAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3DAC5A242A82BE00583CDB /* StorytelAppTests.swift */; };
+		5E3DAC68242A84B400583CDB /* HttpRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3DAC67242A84B400583CDB /* HttpRequest.swift */; };
+		5E3DAC6A242A85C100583CDB /* HttpService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3DAC69242A85C100583CDB /* HttpService.swift */; };
+		5E3DAC6C242A85E300583CDB /* StorytelAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3DAC6B242A85E300583CDB /* StorytelAPI.swift */; };
+		5E3DAC6F242A869A00583CDB /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3DAC6E242A869A00583CDB /* Book.swift */; };
+		5E3DAC74242A879B00583CDB /* BooksListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3DAC73242A879B00583CDB /* BooksListViewController.swift */; };
+		5E3DAC76242A87AF00583CDB /* BooksListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3DAC75242A87AF00583CDB /* BooksListPresenter.swift */; };
+		5E3DAC7A242A8C1A00583CDB /* Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3DAC79242A8C1A00583CDB /* Presenter.swift */; };
+		5E3DAC7C242AA36000583CDB /* BooksListViewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3DAC7B242AA36000583CDB /* BooksListViewBuilder.swift */; };
+		5EC2A059242B4F5700771E20 /* ApplicationContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC2A058242B4F5700771E20 /* ApplicationContext.swift */; };
+		5ECF5E9F242B61E000F161F9 /* BooksResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ECF5E9E242B61E000F161F9 /* BooksResponse.swift */; };
+		5ECF5EA4242B636300F161F9 /* BookPerson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ECF5EA3242B636300F161F9 /* BookPerson.swift */; };
+		5ECF5EA6242B638100F161F9 /* BookImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ECF5EA5242B638100F161F9 /* BookImage.swift */; };
+		5ECF5EA8242B68DD00F161F9 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ECF5EA7242B68DD00F161F9 /* Alert.swift */; };
+		5ECF5EAC242B691500F161F9 /* UIViewController+Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ECF5EAB242B691500F161F9 /* UIViewController+Alert.swift */; };
+		5ECF5EAE242B699800F161F9 /* UITableViewCell+ReuseIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ECF5EAD242B699800F161F9 /* UITableViewCell+ReuseIdentifier.swift */; };
+		5ECF5EB0242B8A5000F161F9 /* PresenterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ECF5EAF242B8A5000F161F9 /* PresenterView.swift */; };
+		5ECF5EB4242B8B8200F161F9 /* BookCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ECF5EB2242B8B8200F161F9 /* BookCell.swift */; };
+		5ECF5EB5242B8B8200F161F9 /* BookCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5ECF5EB3242B8B8200F161F9 /* BookCell.xib */; };
+		5ED6F3FF242C9A520067CF98 /* BookViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED6F3FE242C9A520067CF98 /* BookViewModel.swift */; };
+		5ED6F402242C9E160067CF98 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 5ED6F401242C9E160067CF98 /* SDWebImage */; };
+		5ED6F404242CE0D60067CF98 /* LoadableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED6F403242CE0D60067CF98 /* LoadableView.swift */; };
+		5ED6F406242CE1490067CF98 /* IncrementallyLoadableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED6F405242CE1490067CF98 /* IncrementallyLoadableView.swift */; };
+		5ED6F40A242CEC1D0067CF98 /* BooksHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED6F409242CEC1D0067CF98 /* BooksHeaderView.swift */; };
+		5ED6F40C242CFAD50067CF98 /* BooksListPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED6F40B242CFAD50067CF98 /* BooksListPresenterTests.swift */; };
+		5ED6F40F242CFB810067CF98 /* MockBooksApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED6F40E242CFB810067CF98 /* MockBooksApiService.swift */; };
+		5ED6F411242CFCC00067CF98 /* MockBooksListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED6F410242CFCC00067CF98 /* MockBooksListView.swift */; };
+		5ED6F413242D03120067CF98 /* BookViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED6F412242D03120067CF98 /* BookViewModelTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,14 +54,37 @@
 		5E3DAC40242A82BC00583CDB /* StorytelApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StorytelApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E3DAC43242A82BC00583CDB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5E3DAC45242A82BC00583CDB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5E3DAC47242A82BC00583CDB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		5E3DAC4A242A82BC00583CDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5E3DAC4C242A82BE00583CDB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5E3DAC4F242A82BE00583CDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5E3DAC51242A82BE00583CDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5E3DAC56242A82BE00583CDB /* StorytelAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StorytelAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5E3DAC5A242A82BE00583CDB /* StorytelAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorytelAppTests.swift; sourceTree = "<group>"; };
 		5E3DAC5C242A82BE00583CDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E3DAC67242A84B400583CDB /* HttpRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpRequest.swift; sourceTree = "<group>"; };
+		5E3DAC69242A85C100583CDB /* HttpService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpService.swift; sourceTree = "<group>"; };
+		5E3DAC6B242A85E300583CDB /* StorytelAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorytelAPI.swift; sourceTree = "<group>"; };
+		5E3DAC6E242A869A00583CDB /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		5E3DAC73242A879B00583CDB /* BooksListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksListViewController.swift; sourceTree = "<group>"; };
+		5E3DAC75242A87AF00583CDB /* BooksListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksListPresenter.swift; sourceTree = "<group>"; };
+		5E3DAC79242A8C1A00583CDB /* Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presenter.swift; sourceTree = "<group>"; };
+		5E3DAC7B242AA36000583CDB /* BooksListViewBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksListViewBuilder.swift; sourceTree = "<group>"; };
+		5EC2A058242B4F5700771E20 /* ApplicationContext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationContext.swift; sourceTree = "<group>"; };
+		5ECF5E9E242B61E000F161F9 /* BooksResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksResponse.swift; sourceTree = "<group>"; };
+		5ECF5EA3242B636300F161F9 /* BookPerson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookPerson.swift; sourceTree = "<group>"; };
+		5ECF5EA5242B638100F161F9 /* BookImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookImage.swift; sourceTree = "<group>"; };
+		5ECF5EA7242B68DD00F161F9 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		5ECF5EAB242B691500F161F9 /* UIViewController+Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Alert.swift"; sourceTree = "<group>"; };
+		5ECF5EAD242B699800F161F9 /* UITableViewCell+ReuseIdentifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableViewCell+ReuseIdentifier.swift"; sourceTree = "<group>"; };
+		5ECF5EAF242B8A5000F161F9 /* PresenterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresenterView.swift; sourceTree = "<group>"; };
+		5ECF5EB2242B8B8200F161F9 /* BookCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookCell.swift; sourceTree = "<group>"; };
+		5ECF5EB3242B8B8200F161F9 /* BookCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BookCell.xib; sourceTree = "<group>"; };
+		5ED6F3FE242C9A520067CF98 /* BookViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookViewModel.swift; sourceTree = "<group>"; };
+		5ED6F403242CE0D60067CF98 /* LoadableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadableView.swift; sourceTree = "<group>"; };
+		5ED6F405242CE1490067CF98 /* IncrementallyLoadableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncrementallyLoadableView.swift; sourceTree = "<group>"; };
+		5ED6F409242CEC1D0067CF98 /* BooksHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksHeaderView.swift; sourceTree = "<group>"; };
+		5ED6F40B242CFAD50067CF98 /* BooksListPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksListPresenterTests.swift; sourceTree = "<group>"; };
+		5ED6F40E242CFB810067CF98 /* MockBooksApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockBooksApiService.swift; sourceTree = "<group>"; };
+		5ED6F410242CFCC00067CF98 /* MockBooksListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockBooksListView.swift; sourceTree = "<group>"; };
+		5ED6F412242D03120067CF98 /* BookViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookViewModelTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5ED6F402242C9E160067CF98 /* SDWebImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,10 +127,12 @@
 		5E3DAC42242A82BC00583CDB /* StorytelApp */ = {
 			isa = PBXGroup;
 			children = (
+				5E3DAC65242A84A500583CDB /* API */,
+				5E3DAC78242A8C0700583CDB /* Common */,
+				5E3DAC70242A873800583CDB /* Books List */,
+				5ECF5EA9242B68FF00F161F9 /* Utils */,
 				5E3DAC43242A82BC00583CDB /* AppDelegate.swift */,
 				5E3DAC45242A82BC00583CDB /* SceneDelegate.swift */,
-				5E3DAC47242A82BC00583CDB /* ViewController.swift */,
-				5E3DAC49242A82BC00583CDB /* Main.storyboard */,
 				5E3DAC4C242A82BE00583CDB /* Assets.xcassets */,
 				5E3DAC4E242A82BE00583CDB /* LaunchScreen.storyboard */,
 				5E3DAC51242A82BE00583CDB /* Info.plist */,
@@ -93,10 +143,159 @@
 		5E3DAC59242A82BE00583CDB /* StorytelAppTests */ = {
 			isa = PBXGroup;
 			children = (
-				5E3DAC5A242A82BE00583CDB /* StorytelAppTests.swift */,
+				5ED6F40D242CFB680067CF98 /* Mock */,
 				5E3DAC5C242A82BE00583CDB /* Info.plist */,
+				5ED6F40B242CFAD50067CF98 /* BooksListPresenterTests.swift */,
+				5ED6F412242D03120067CF98 /* BookViewModelTests.swift */,
 			);
 			path = StorytelAppTests;
+			sourceTree = "<group>";
+		};
+		5E3DAC65242A84A500583CDB /* API */ = {
+			isa = PBXGroup;
+			children = (
+				5E3DAC66242A84AA00583CDB /* Core */,
+				5E3DAC6D242A868E00583CDB /* Models */,
+				5E3DAC6B242A85E300583CDB /* StorytelAPI.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		5E3DAC66242A84AA00583CDB /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				5E3DAC67242A84B400583CDB /* HttpRequest.swift */,
+				5E3DAC69242A85C100583CDB /* HttpService.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		5E3DAC6D242A868E00583CDB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5ECF5E9D242B61D000F161F9 /* Responses */,
+				5ECF5EA2242B623900F161F9 /* Books */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5E3DAC70242A873800583CDB /* Books List */ = {
+			isa = PBXGroup;
+			children = (
+				5E3DAC77242A882E00583CDB /* Builder */,
+				5E3DAC72242A878A00583CDB /* Presenter */,
+				5ED6F3FD242C9A3E0067CF98 /* ViewModels */,
+				5E3DAC71242A878700583CDB /* View */,
+			);
+			path = "Books List";
+			sourceTree = "<group>";
+		};
+		5E3DAC71242A878700583CDB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5ECF5EB1242B8B7000F161F9 /* Cells */,
+				5ED6F408242CEB8B0067CF98 /* Header View */,
+				5E3DAC73242A879B00583CDB /* BooksListViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5E3DAC72242A878A00583CDB /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				5E3DAC75242A87AF00583CDB /* BooksListPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		5E3DAC77242A882E00583CDB /* Builder */ = {
+			isa = PBXGroup;
+			children = (
+				5E3DAC7B242AA36000583CDB /* BooksListViewBuilder.swift */,
+			);
+			path = Builder;
+			sourceTree = "<group>";
+		};
+		5E3DAC78242A8C0700583CDB /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				5E3DAC79242A8C1A00583CDB /* Presenter.swift */,
+				5ECF5EAF242B8A5000F161F9 /* PresenterView.swift */,
+				5ED6F403242CE0D60067CF98 /* LoadableView.swift */,
+				5ED6F405242CE1490067CF98 /* IncrementallyLoadableView.swift */,
+				5EC2A058242B4F5700771E20 /* ApplicationContext.swift */,
+				5ECF5EA7242B68DD00F161F9 /* Alert.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		5ECF5E9D242B61D000F161F9 /* Responses */ = {
+			isa = PBXGroup;
+			children = (
+				5ECF5E9E242B61E000F161F9 /* BooksResponse.swift */,
+			);
+			path = Responses;
+			sourceTree = "<group>";
+		};
+		5ECF5EA2242B623900F161F9 /* Books */ = {
+			isa = PBXGroup;
+			children = (
+				5E3DAC6E242A869A00583CDB /* Book.swift */,
+				5ECF5EA5242B638100F161F9 /* BookImage.swift */,
+				5ECF5EA3242B636300F161F9 /* BookPerson.swift */,
+			);
+			path = Books;
+			sourceTree = "<group>";
+		};
+		5ECF5EA9242B68FF00F161F9 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				5ECF5EAA242B690400F161F9 /* Extensions */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		5ECF5EAA242B690400F161F9 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5ECF5EAB242B691500F161F9 /* UIViewController+Alert.swift */,
+				5ECF5EAD242B699800F161F9 /* UITableViewCell+ReuseIdentifier.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		5ECF5EB1242B8B7000F161F9 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				5ECF5EB2242B8B8200F161F9 /* BookCell.swift */,
+				5ECF5EB3242B8B8200F161F9 /* BookCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		5ED6F3FD242C9A3E0067CF98 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				5ED6F3FE242C9A520067CF98 /* BookViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		5ED6F408242CEB8B0067CF98 /* Header View */ = {
+			isa = PBXGroup;
+			children = (
+				5ED6F409242CEC1D0067CF98 /* BooksHeaderView.swift */,
+			);
+			path = "Header View";
+			sourceTree = "<group>";
+		};
+		5ED6F40D242CFB680067CF98 /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+				5ED6F40E242CFB810067CF98 /* MockBooksApiService.swift */,
+				5ED6F410242CFCC00067CF98 /* MockBooksListView.swift */,
+			);
+			path = Mock;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -115,6 +314,9 @@
 			dependencies = (
 			);
 			name = StorytelApp;
+			packageProductDependencies = (
+				5ED6F401242C9E160067CF98 /* SDWebImage */,
+			);
 			productName = StorytelApp;
 			productReference = 5E3DAC40242A82BC00583CDB /* StorytelApp.app */;
 			productType = "com.apple.product-type.application";
@@ -152,6 +354,7 @@
 					};
 					5E3DAC55242A82BE00583CDB = {
 						CreatedOnToolsVersion = 11.3.1;
+						LastSwiftMigration = 1140;
 						TestTargetID = 5E3DAC3F242A82BC00583CDB;
 					};
 				};
@@ -165,6 +368,9 @@
 				Base,
 			);
 			mainGroup = 5E3DAC37242A82BC00583CDB;
+			packageReferences = (
+				5ED6F400242C9E160067CF98 /* XCRemoteSwiftPackageReference "SDWebImage" */,
+			);
 			productRefGroup = 5E3DAC41242A82BC00583CDB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -182,7 +388,7 @@
 			files = (
 				5E3DAC50242A82BE00583CDB /* LaunchScreen.storyboard in Resources */,
 				5E3DAC4D242A82BE00583CDB /* Assets.xcassets in Resources */,
-				5E3DAC4B242A82BC00583CDB /* Main.storyboard in Resources */,
+				5ECF5EB5242B8B8200F161F9 /* BookCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,9 +406,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E3DAC48242A82BC00583CDB /* ViewController.swift in Sources */,
+				5E3DAC6C242A85E300583CDB /* StorytelAPI.swift in Sources */,
+				5E3DAC74242A879B00583CDB /* BooksListViewController.swift in Sources */,
+				5E3DAC76242A87AF00583CDB /* BooksListPresenter.swift in Sources */,
+				5ECF5EA8242B68DD00F161F9 /* Alert.swift in Sources */,
+				5ED6F406242CE1490067CF98 /* IncrementallyLoadableView.swift in Sources */,
+				5ED6F40A242CEC1D0067CF98 /* BooksHeaderView.swift in Sources */,
+				5ECF5E9F242B61E000F161F9 /* BooksResponse.swift in Sources */,
+				5ED6F3FF242C9A520067CF98 /* BookViewModel.swift in Sources */,
+				5EC2A059242B4F5700771E20 /* ApplicationContext.swift in Sources */,
+				5ECF5EB4242B8B8200F161F9 /* BookCell.swift in Sources */,
+				5E3DAC7C242AA36000583CDB /* BooksListViewBuilder.swift in Sources */,
+				5ECF5EAC242B691500F161F9 /* UIViewController+Alert.swift in Sources */,
+				5ECF5EA4242B636300F161F9 /* BookPerson.swift in Sources */,
+				5ECF5EB0242B8A5000F161F9 /* PresenterView.swift in Sources */,
+				5ED6F404242CE0D60067CF98 /* LoadableView.swift in Sources */,
+				5E3DAC7A242A8C1A00583CDB /* Presenter.swift in Sources */,
+				5ECF5EA6242B638100F161F9 /* BookImage.swift in Sources */,
+				5ECF5EAE242B699800F161F9 /* UITableViewCell+ReuseIdentifier.swift in Sources */,
+				5E3DAC6F242A869A00583CDB /* Book.swift in Sources */,
+				5E3DAC68242A84B400583CDB /* HttpRequest.swift in Sources */,
 				5E3DAC44242A82BC00583CDB /* AppDelegate.swift in Sources */,
 				5E3DAC46242A82BC00583CDB /* SceneDelegate.swift in Sources */,
+				5E3DAC6A242A85C100583CDB /* HttpService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,7 +436,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E3DAC5B242A82BE00583CDB /* StorytelAppTests.swift in Sources */,
+				5ED6F40C242CFAD50067CF98 /* BooksListPresenterTests.swift in Sources */,
+				5ED6F413242D03120067CF98 /* BookViewModelTests.swift in Sources */,
+				5ED6F40F242CFB810067CF98 /* MockBooksApiService.swift in Sources */,
+				5ED6F411242CFCC00067CF98 /* MockBooksListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,14 +454,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		5E3DAC49242A82BC00583CDB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5E3DAC4A242A82BC00583CDB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		5E3DAC4E242A82BE00583CDB /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -372,7 +593,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ashuba.StorytelApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -390,7 +611,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ashuba.StorytelApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -399,6 +620,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8FUBVVN7HH;
 				INFOPLIST_FILE = StorytelAppTests/Info.plist;
@@ -410,6 +632,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ashuba.StorytelAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StorytelApp.app/StorytelApp";
@@ -421,6 +644,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8FUBVVN7HH;
 				INFOPLIST_FILE = StorytelAppTests/Info.plist;
@@ -469,6 +693,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5ED6F400242C9E160067CF98 /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.6.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5ED6F401242C9E160067CF98 /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5ED6F400242C9E160067CF98 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 5E3DAC38242A82BC00583CDB /* Project object */;
 }
